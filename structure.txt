@@ -1,0 +1,35 @@
+Features
+- Customer registration and customer records
+- Vehicle registration and fleet management
+- Vehicle availability tracking
+- Rental booking with date validation
+- Vehicle return and late-return charges
+- Rental payment records
+- Vehicle maintenance status
+- Rental history and revenue reports
+- Input validation and error handling
+- Separate Python modules for easier maintenance
+
+1. Project folder structure
+vehicle_rental/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── customer_manager.py
+├── vehicle_manager.py
+├── rental_manager.py
+├── payment_manager.py
+├── maintenance_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── customers.json
+    ├── vehicles.json
+    ├── rentals.json
+    ├── payments.json
+    └── maintenance.json
